@@ -8,7 +8,7 @@
     <div class="col-md-3 col-xs-3">
     <img src="/images/{{  $hotelList->hotel_image}}" width="270" height="150" class="img-fluid">
     </div>
-    <div class="col-md-8 col-xs-8">
+    <div class="col-md-7 col-xs-7">
         <div>
             <div class="left-align"><h5 class="title">{{ $hotelList->hotel_name }} </h5></div>
             <div class="left-align">
@@ -30,8 +30,8 @@
         </tbody>
       </table>         
     </div><!--End of col -->
-    <div class="col-md-1 col-xs-1">
-    <span class="price-feature">{{ $hotelList->base_price }}</span><!--<img src="/images/arrow.png" width="200" height="100">-->
+    <div class="col-md-2 col-xs-2">
+    <!--<span class="price-feature">{{ $hotelList->base_price }}</span>--><img src="/images/arrow.png" width="200" height="100">
     </div>
 </div>
 @endforeach

@@ -35,3 +35,6 @@
 font-size:26px;
 color:#999;
 }
+.list{
+    padding-inline-start: 13px !important;
+}
