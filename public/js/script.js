@@ -1,5 +1,5 @@
 
-    $(document).ready(function(){
+$(document).ready(function(){
        
  $('.rooms-availability').click(function(e){
            
@@ -51,8 +51,5 @@
           
         });
 
-
-
-
-      });
+});// End Of Doc
  
